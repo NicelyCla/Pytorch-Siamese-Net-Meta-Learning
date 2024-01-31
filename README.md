@@ -64,8 +64,6 @@ The Anchor in this case is the current sampled domain, the Positive is a positiv
 
 **Example:** 
 
-
-
 |![](Aspose.Words.8db9fae6-338d-4b6f-b13f-d18ffe1072f6.005.png)|![](Aspose.Words.8db9fae6-338d-4b6f-b13f-d18ffe1072f6.006.png)|![](Aspose.Words.8db9fae6-338d-4b6f-b13f-d18ffe1072f6.007.png)|
 | - | - | - |
 
@@ -94,8 +92,6 @@ Below is a comparison of the 90-10 meta approach with the classic 90-10.
 
 whether the images belong to the same class or not.
 
-
-
 |**Training** |**Test Accuracy (triplet)** |**Binary Test Accuracy** |**Mean Few Shot Accuracy** |
 | - | - | - | - |
 |90-10 |88\.34% |80\.95% |83\.06% |
@@ -123,7 +119,6 @@ Although the overall average is less performing, some unseen tasks were very acc
 
 - **Distance accuracy Few Shot:** 80.0
 - Few Shot Binary accuracy: 68.8
-
 
 **Conclusion** 
 
