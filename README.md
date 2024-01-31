@@ -112,8 +112,22 @@ Although the overall average is less performing, some unseen tasks were very acc
 
 
 
-|<p>Distance Test Accuracy [TASK: 90]:82.00% Distance Test Accuracy [TASK: 91]:68.00% **Distance Test Accuracy [TASK: 92]:86.00%** Distance Test Accuracy [TASK: 93]:76.00% **Distance Test Accuracy [TASK: 94]:88.00% Distance Test Accuracy [TASK: 95]:96.00%** Distance Test Accuracy [TASK: 96]:76.00% Distance Test Accuracy [TASK: 97]:72.00% Distance Test Accuracy [TASK: 98]:78.00% Distance Test Accuracy [TASK: 99]:78.00% </p><p>**- Distance accuracy Few Shot: 80.0** </p>|<p>Binary Test Accuracy [TASK: 90]: 68.00% Binary Test Accuracy [TASK: 91]: 60.00% **Binary Test Accuracy [TASK: 92]: 80.00%** Binary Test Accuracy [TASK: 93]: 54.00% Binary Test Accuracy [TASK: 94]: 64.00% **Binary Test Accuracy [TASK: 95]: 90.00% Binary Test Accuracy [TASK: 96]: 84.00%** Binary Test Accuracy [TASK: 97]: 76.00% Binary Test Accuracy [TASK: 98]: 62.00% Binary Test Accuracy [TASK: 99]: 50.00% </p><p>- Few Shot Binary accuracy: 68.8 </p>|
-| :- | :- |
+| Task  | Distance Test Accuracy | Binary Test Accuracy |
+|-------|------------------------|----------------------|
+| TASK: 90  | 82.00%                | 68.00%               |
+| TASK: 91  | 68.00%                | 60.00%               |
+| TASK: 92  | **86.00%**            | **80.00%**           |
+| TASK: 93  | 76.00%                | 54.00%               |
+| TASK: 94  | **88.00%**            | 64.00%               |
+| TASK: 95  | **96.00%**            | **90.00%**           |
+| TASK: 96  | 76.00%                | 84.00%               |
+| TASK: 97  | 72.00%                | 76.00%               |
+| TASK: 98  | 78.00%                | 62.00%               |
+| TASK: 99  | 78.00%                | 50.00%               |
+
+- **Distance accuracy Few Shot:** 80.0
+- Few Shot Binary accuracy: 68.8
+
 
 **Conclusion** 
 
