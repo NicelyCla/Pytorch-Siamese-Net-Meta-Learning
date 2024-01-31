@@ -62,10 +62,12 @@ The CIFAR100 dataset was divided into 100 tasks, the network was therefore train
 
 The Anchor in this case is the current sampled domain, the Positive is a positive batch of the Anchor and the Negative corresponds to the antidomain, i.e. a batch that contains the other domains. 
 
-**Example:** 
+**Example:**
 
-|![](https://raw.githubusercontent.com/NicelyCla/Pytorch-Siamese-Net-Meta-Learning/main/Images/anchor.png|![](https://raw.githubusercontent.com/NicelyCla/Pytorch-Siamese-Net-Meta-Learning/main/Images/positive.png)|![](https://raw.githubusercontent.com/NicelyCla/Pytorch-Siamese-Net-Meta-Learning/main/Images/negative.png)|
-| - | - | - |
+| Anchor | Positive | Negative |
+|--------|----------|----------|
+| ![](https://raw.githubusercontent.com/NicelyCla/Pytorch-Siamese-Net-Meta-Learning/main/Images/anchor.png) | ![](https://raw.githubusercontent.com/NicelyCla/Pytorch-Siamese-Net-Meta-Learning/main/Images/positive.png) | ![](https://raw.githubusercontent.com/NicelyCla/Pytorch-Siamese-Net-Meta-Learning/main/Images/negative.png) |
+
 
 **Experimental results:** 
 
