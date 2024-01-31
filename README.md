@@ -44,19 +44,19 @@ Reptile is an optimization algorithm used in the context of metalearning. Essent
 
 Reptile is a well-known meta-learning optimization algorithm for its simplicity. Both rely on meta-optimization through gradient descent and are model-agnostic. Reptile seeks an initialization for the parameters of a neural network so that it can be fine-tuned using a small amount of data from a new task.  
 
-![](Aspose.Words.8db9fae6-338d-4b6f-b13f-d18ffe1072f6.001.png)
+![](https://raw.githubusercontent.com/NicelyCla/Pytorch-Siamese-Net-Meta-Learning/main/Images/reptile1.png)
 
 Meta-step size: 
 
-![](Aspose.Words.8db9fae6-338d-4b6f-b13f-d18ffe1072f6.002.png)
+![](https://raw.githubusercontent.com/NicelyCla/Pytorch-Siamese-Net-Meta-Learning/main/Images/reptile2.png)
 
 The operation of Reptile can be intuitively explained: each task contains a set of optimal parameters, and for each task, it is reasonable to assume the existence of a set of parameters for which the distance from at least one optimal set is minimal. This particular set is the point at which we want to initialize our network, as it represents the least costly value in terms of effort to reach the optimal set for each task. The purpose of Reptile is precisely to find this set. 
 
-![](Aspose.Words.8db9fae6-338d-4b6f-b13f-d18ffe1072f6.003.png)
+![](https://raw.githubusercontent.com/NicelyCla/Pytorch-Siamese-Net-Meta-Learning/main/Images/reptile3.png)
 
 **Siamese Network with triplet loss trained with metalearning** 
 
-![](Aspose.Words.8db9fae6-338d-4b6f-b13f-d18ffe1072f6.004.jpeg)
+![](https://raw.githubusercontent.com/NicelyCla/Pytorch-Siamese-Net-Meta-Learning/main/Images/metatraining.jpeg)
 
 The CIFAR100 dataset was divided into 100 tasks, the network was therefore trained on 100 tasks, i.e. 100 domains. As shown in the image below, the network is cloned, trained on a random task and then Reptile's formula is applied on the original network. 
 
@@ -64,7 +64,7 @@ The Anchor in this case is the current sampled domain, the Positive is a positiv
 
 **Example:** 
 
-|![](Aspose.Words.8db9fae6-338d-4b6f-b13f-d18ffe1072f6.005.png)|![](Aspose.Words.8db9fae6-338d-4b6f-b13f-d18ffe1072f6.006.png)|![](Aspose.Words.8db9fae6-338d-4b6f-b13f-d18ffe1072f6.007.png)|
+|![](https://raw.githubusercontent.com/NicelyCla/Pytorch-Siamese-Net-Meta-Learning/main/Images/anchor.png|![](https://raw.githubusercontent.com/NicelyCla/Pytorch-Siamese-Net-Meta-Learning/main/Images/positive.png)|![](https://raw.githubusercontent.com/NicelyCla/Pytorch-Siamese-Net-Meta-Learning/main/Images/negative.png)|
 | - | - | - |
 
 **Experimental results:** 
