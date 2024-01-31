@@ -119,7 +119,7 @@ Although the overall average is less performing, some unseen tasks were very acc
 | TASK: 98  | 78.00%                | 62.00%               |
 | TASK: 99  | 78.00%                | 50.00%               |
 
-- **Distance accuracy Few Shot:** 80.0
+- Distance accuracy Few Shot: **80.0**
 - Few Shot Binary accuracy: 68.8
 
 **Conclusion** 
