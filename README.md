@@ -79,8 +79,6 @@ Below is a comparison of the 90-10 meta approach with the classic 90-10.
 
 **Hyperparameters** 
 
-
-
 |*Iterations* |10000 |
 | - | - |
 |*Inner-epochs* |30 |
@@ -90,9 +88,9 @@ Below is a comparison of the 90-10 meta approach with the classic 90-10.
 
 **Complete results:** 
 
-- ***Distance Test Accuracy (triplet):*** Given an anchor, positive and negative, this test is based on how many times the distance between anchor and positive is less than the 
-
-distance between anchor and negative. ￿  ***Binary Test Accuracy:*** Given a pair of images, this test measures how many times it was correctly predicted whether the images belong to the same class or not. ￿  ***Mean Few Shot Accuracy:*** Given a pair of images from a subset excluded during the training phase, this test measures how many times it was correctly predicted 
+- ***Distance Test Accuracy (triplet):*** Given an anchor, positive and negative, this test is based on how many times the distance between anchor and positive is less than the distance between anchor and negative.
+- ***Binary Test Accuracy:*** Given a pair of images, this test measures how many times it was correctly predicted whether the images belong to the same class or not.
+- ***Mean Few Shot Accuracy:*** Given a pair of images from a subset excluded during the training phase, this test measures how many times it was correctly predicted.
 
 whether the images belong to the same class or not.
 
@@ -109,8 +107,6 @@ Although the model trained with metalearning is less performing, there are some 
 1. The **threshold** value of binary tests may not be optimal. 
 
 Although the overall average is less performing, some unseen tasks were very accurate: 
-
-
 
 | Task  | Distance Test Accuracy | Binary Test Accuracy |
 |-------|------------------------|----------------------|
